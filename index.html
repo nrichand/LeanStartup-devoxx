@@ -222,7 +222,7 @@
 						<div class="span12">
 							<p>Créez-vous un compte gratuit sur <a href="http://landerapp.com/">lander</a> :</p>
 							<a href="http://landerapp.com/"><img src="img/landerapp.jpg"></a>
-							<p>Vous pouvez sinon utiliser directement ce compte : devoxx@yopmail.com / devoxxFR</p>
+							<p>Vous pouvez sinon utiliser directement ce compte : <i>devoxx@yopmail.com / devoxxFR</i></p>
 						</div>
 					</div>
 
@@ -248,14 +248,29 @@
 
 					<h3>Exemples</h3>
 					<div class="row">
-						<div class="span6">
-							<h5> Le bon exemple : <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a></h5>
-							<a href="img/Bootstrap.jpg"><img src="img/Bootstrap.jpg"></a>
-						</div>
+						<div class="tabbable"> <!-- Only required for left/right tabs -->
+						  <ul class="nav nav-tabs">
+							<li class="active"><a href="#GoodLP" data-toggle="tab">Bon exemple</a></li>
+							<li><a href="#GoodLP2" data-toggle="tab">Bon exemple 2</a></li>
+							<li><a href="#BadLP" data-toggle="tab">Mauvais exemple</a></li>
+						  </ul>
 
-						<div class="span6">
-							<h5> Le mauvais exemple :</h5>
-							<a href="img/earliz.jpg"><img src="img/earliz.jpg"></a>
+						  <div class="tab-content">
+							<div class="tab-pane active" id="GoodLP">
+								<h5> Le bon exemple : <a href="http://http://www.gethppy.com/">gethppy</a></h5>
+								<a href="img/teamHapinessLanding.jpg"><img src="img/teamHapinessLanding.jpg"></a>
+							</div>
+								
+							<div class="tab-pane" id="GoodLP2">
+								<h5> Le bon exemple : <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a></h5>
+								<a href="img/Bootstrap.jpg"><img src="img/Bootstrap.jpg"></a>
+							</div>
+							
+							<div class="tab-pane" id="BadLP">
+								<h5> Le mauvais exemple :</h5>
+								<a href="img/earliz.jpg"><img src="img/earliz.jpg"></a>
+							</div>
+						  </div>
 						</div>
 					</div>
 
